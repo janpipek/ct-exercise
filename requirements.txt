@@ -1,0 +1,5 @@
+xarray
+typer
+netCDF4
+notebook
+ipython
