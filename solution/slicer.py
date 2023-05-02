@@ -40,6 +40,7 @@ def plot_three_planes(data, **kwargs):
 
 
 def main(
+    # Subtask: Define the input_path and output_path arguments
     input_path: Path,
     output_path: Path = Path("plot.png"),
     # Subtask: Define arguments you want the user to be able to specify
@@ -60,6 +61,8 @@ def main(
         levels = None
 
     fig = plot_three_planes(data, vmin=vmin, vmax=vmax, cmap=cmap, levels=levels)
+
+    # Subtask: Save the figure 
     fig.tight_layout()
     fig.savefig(output_path)
 
