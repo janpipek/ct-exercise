@@ -3,3 +3,4 @@ typer
 netCDF4
 notebook
 ipython
+matplotlib
