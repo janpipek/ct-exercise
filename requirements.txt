@@ -5,3 +5,4 @@ notebook
 ipython
 ipywidgets
 matplotlib
+typing_extensions
