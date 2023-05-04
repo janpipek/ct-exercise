@@ -4,3 +4,4 @@ netCDF4
 notebook
 ipython
 matplotlib
+openpyxl
